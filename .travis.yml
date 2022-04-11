@@ -32,7 +32,6 @@ before_install:
   #Come back to the repo unwrapped folder 
 
   - cd $TRAVIS_BUILD_DIR/
-  
 install:
 
   - echo "Reached Install Section"
