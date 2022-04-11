@@ -39,7 +39,7 @@ install:
   
 script:
   - echo “Reached Script Section - Hello”
-  - gcc		hello_functions.c hellow_world.c -o output
+  - gcc		hello_functions.c hello_world.c -o output
   - ./output
   - size output
 
