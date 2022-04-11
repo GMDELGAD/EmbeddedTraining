@@ -48,7 +48,7 @@ float temp_sensor_converter(int temp_sensor_value, bool *success)
 	printf("Temperature sensor value (%d) was converted successfully to temperature %f C in the range of %f C to %f C.\n", temp_sensor_value, temp_celsius, TEMP_C_MIN, TEMP_C_MAX);
 
 	*success = true;
-	return temp celsius;
+	return temp_celsius;
 
 }
 
