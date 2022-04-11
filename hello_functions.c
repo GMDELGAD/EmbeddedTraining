@@ -21,7 +21,7 @@ float temp_sensor_converter(int temp_sensor_value, bool *success)
 	float temp_celsius = 0;
 	// 0 reading = -55 C temp, 1023 reading = 125 C temp, assuming linear relationship
 
-	if(temp_sensor_value < TEMP_SENSE_MIN || temp_sensor_value > TEMP_SENSE_MaX)
+	if(temp_sensor_value < TEMP_SENSE_MIN || temp_sensor_value > TEMP_SENSE_MAX)
 	{
 		//change success to false
 		printf(“Temperature sensor value (%d) is not in the range of %d to %d\n Attempting conversion now …\n”, temp_sensor_value, TEMP_SENSE_MIN, TEMP_SENSE_MAX);
